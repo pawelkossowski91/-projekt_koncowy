@@ -3,7 +3,7 @@
 Coders Lab Final project:
 
 
-new version od classic, arcade game.
+new version of classic, arcade game.
 
 Use z,x and arrow keys to control.
 

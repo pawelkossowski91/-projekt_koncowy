@@ -1,4 +1,4 @@
-# -projekt_koncowy
+#projekt_koncowy
 
 Coders Lab Final project:
 

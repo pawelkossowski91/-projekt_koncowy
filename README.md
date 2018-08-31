@@ -1,3 +1,6 @@
+#'SYME-TETRIS'
+
+
 #projekt_koncowy
 
 Coders Lab Final project:

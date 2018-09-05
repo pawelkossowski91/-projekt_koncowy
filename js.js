@@ -81,7 +81,6 @@ function closeNavGame() {
     randomCube = () => {
         // let randomTetromino=Math.floor((Math.random() * 4) + 1);
 
-
         if (zIn==0){
             // i
             macierz[0]= [0,0,0,1,0,0,0,0];
@@ -129,8 +128,10 @@ function closeNavGame() {
                 scoreTwo=(scoreTwo+1)*10;
                 $('#wynikFull').text(scoreTwo);
                 // randomCube();
+                inkremento();
                 moveDown();
                 rysuj();
+                // zIn=(Math.random() * 5);
             }
         }
     };
@@ -388,7 +389,7 @@ function closeNavGame() {
 
     };
 
-
+    // OSTROŚĆ
     sharpnessMoveDown = () => {
         $('#displayScore').css('color', 'orange');
         score=score+50;
@@ -421,6 +422,7 @@ function closeNavGame() {
         gameOver();
         setTimeout(mainCycle,time);
     };
+
     rysuj();
     mainCycle();
 
